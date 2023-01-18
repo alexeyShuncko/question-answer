@@ -5,18 +5,16 @@ import ListAnswers from './components/ListAnswers/ListAnswers';
 import Result from './components/Result/Result';
 
 function App() {
-  const [answers, setAnswers] = useState({
-    Q1: null,
-    Q2: null,
-    Q3: null,
-    Q4: null,
-    Q5: null,
-    Q6: null,
-    Q7: null,
-    Q8: null,
-  });
-
-  console.log(answers);
+  const [answers, setAnswers] = useState([
+    { Q: null },
+    { Q: null },
+    { Q: null },
+    { Q: null },
+    { Q: null },
+    { Q: null },
+    { Q: null },
+    { Q: null },
+  ]);
 
   return (
     <div className="container">

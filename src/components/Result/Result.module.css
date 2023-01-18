@@ -12,10 +12,13 @@
 
 .noFull {
     background: var(--medium);
+    border-radius: 5px;
+    padding: 0 5px;
 }
 
 .percent {
     font-size: 22px;
+    font-weight: 600;
 }
 
 .btn {
@@ -25,6 +28,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s;
+    font-size: 0.9em;
 }
 
 .btn:active {

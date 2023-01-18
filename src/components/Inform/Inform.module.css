@@ -1,5 +1,6 @@
 .info {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .list {
@@ -11,4 +12,8 @@
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.description {
+    font-weight: 600;
 }

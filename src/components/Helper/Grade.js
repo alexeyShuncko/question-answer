@@ -6,7 +6,9 @@ const Grade = ({ text }) => {
     color = '#7cd679';
   } else if (text === '-') {
     color = '#f09898';
-  } else color = '#d8e74e';
+  } else if (text === '+-') {
+    color = '#d8e74e';
+  }
   return (
     <button className={s.grade} style={{ '--clr': color }}>
       <span>{text}</span>

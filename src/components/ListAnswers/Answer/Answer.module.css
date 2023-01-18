@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.answer {
+    width: 100%;
+}
+
+.answerText {
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.answerText div:nth-child(2) {
+    margin-top: 10px;
+}
+
+.grade {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockBtn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.nameText {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 5px;
+}

@@ -1,0 +1,14 @@
+.info {
+    margin-bottom: 10px;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

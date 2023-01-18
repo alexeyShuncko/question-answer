@@ -1,0 +1,40 @@
+.result {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.result div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.noFull {
+    background: var(--medium);
+}
+
+.percent {
+    font-size: 22px;
+}
+
+.btn {
+    outline: none;
+    border: 1px solid transparent;
+    background: var(--good);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:active {
+    box-shadow: 0 0 10px var(--good),
+        0 0 20px var(--good),
+        0 0 50px var(--good),
+        0 0 100px var(--good);
+}
+
+.btn:hover {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.05em;
+}

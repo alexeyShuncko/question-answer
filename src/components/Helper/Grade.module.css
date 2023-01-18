@@ -1,0 +1,22 @@
+.grade {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    background: var(--clr);
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+    transition: 0.2s;
+}
+
+.grade:active {
+    box-shadow: 0 0 10px var(--clr),
+        0 0 20px var(--clr),
+        0 0 50px var(--clr),
+        0 0 100px var(--clr);
+}
+
+.grade:hover {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}

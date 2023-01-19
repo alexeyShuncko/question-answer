@@ -48,7 +48,10 @@ const Answer = ({ data, index, answers, setAnswers }) => {
             <span className={s.nameText}>Вопрос:</span> {data.Q.question}
           </div>
           <div>
-            <span className={s.nameText}>Ответ:</span> {data.Q.answer}
+            <span className={s.nameText}>Ответ:</span>{' '}
+            <span style={{ whiteSpace: 'pre-line', fontStyle: 'italic' }}>
+              {data.Q.answer}
+            </span>
           </div>
         </div>
         <div className={s.blockBtn} onClick={clickGrade}>

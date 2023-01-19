@@ -1,7 +1,7 @@
 import Grade from '../Helper/Grade';
 import s from './Inform.module.css';
 
-const Inform = (props) => {
+const Inform = () => {
   return (
     <div>
       <h1 style={{ marginBottom: '20px' }}>Level I</h1>
